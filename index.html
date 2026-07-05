@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Achievements</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-zinc-950 text-white">
+  <div class="max-w-5xl mx-auto p-8">
+    <h1 class="text-4xl font-bold mb-8">Base Builder Achievements</h1>
+    
+    <!-- Card 1: 5 contracts -->
+    <div class="bg-zinc-900 rounded-3xl p-8 mb-6 flex gap-8">
+      <div class="flex-1">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center">
+            <i class="fa-solid fa-hammer text-4xl"></i>
+          </div>
+          <div>
+            <div class="text-3xl font-bold">Contracts Deployed: 5</div>
+            <div class="text-zinc-400">64K builders</div>
+          </div>
+        </div>
+        <p class="text-zinc-400">Deployed 5 contracts on Base. Actively building in the ecosystem.</p>
+      </div>
+      
+      <div class="w-80 bg-zinc-950 border border-zinc-700 rounded-2xl p-6">
+        <div class="font-semibold mb-4">Requirements</div>
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fa-solid fa-file-contract text-blue-500"></i>
+          <span>Deployed 5 contracts</span>
+        </div>
+        <div class="text-sm bg-zinc-800 inline-block px-3 py-1 rounded-full">Base</div>
+        
+        <button onclick="alert('Đã Verify (Demo)')" 
+                class="mt-6 w-full bg-zinc-700 hover:bg-zinc-600 py-3 rounded-2xl flex items-center justify-center gap-2">
+          <i class="fa-solid fa-sync-alt"></i>
+          <span>Verify</span>
+        </button>
+      </div>
+    </div>
 
+    <!-- Card 2: 10+ contracts -->
+    <div class="bg-zinc-900 rounded-3xl p-8 flex gap-8">
+      <div class="flex-1">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center">
+            <i class="fa-solid fa-hammer text-4xl"></i>
+          </div>
+          <div>
+            <div class="text-3xl font-bold">Contracts Deployed: 10+</div>
+            <div class="text-zinc-400">56K builders</div>
+          </div>
+        </div>
+        <p class="text-zinc-400">Deployed 10+ contracts on Base. Established builder in the ecosystem.</p>
+      </div>
+      
+      <div class="w-80 bg-zinc-950 border border-zinc-700 rounded-2xl p-6">
+        <div class="font-semibold mb-4">Requirements</div>
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fa-solid fa-check text-emerald-500"></i>
+          <span>Deployed 10 contracts</span>
+        </div>
+        <div class="text-sm bg-zinc-800 inline-block px-3 py-1 rounded-full">Base</div>
+        
+        <button onclick="alert('Đã Verify!')" 
+                class="mt-6 w-full bg-emerald-600 hover:bg-emerald-500 py-3 rounded-2xl flex items-center justify-center gap-2 text-white">
+          <i class="fa-solid fa-check"></i>
+          <span>Verified</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
